@@ -1,0 +1,3 @@
+apple 5 10
+orange 5 7
+mango 5 6
