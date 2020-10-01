@@ -1,0 +1,13 @@
+from tkinter import *
+w=Tk()
+w.geometry('300x400')
+w.title('Login')
+w.config(bg='pink')
+Label(text='username',font=('gothic',20)).grid(row=0,column=0)
+username=Entry(font=('gothic',20))
+username.grid(row=0,column=1)
+Label(text='password',font=('gothic',20)).grid(row=1,column=0)
+password=Entry(font=('gothic',20))
+password.grid(row=1,column=1)
+Button(text='login',font=('gothic',20),bg='blue').grid(row=2,column=0,columnspan=2)
+w.mainloop()
